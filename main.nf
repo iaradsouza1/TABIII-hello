@@ -10,11 +10,11 @@ process SPLITLETTERS {
 
     script: 
     """
-    printf '$x' | split -b 6 - annotate_
+    printf '$x' | split -b 4 - annotate_
     """
-} 
+}
 
-process CONVERTTOUPPER { 
+process CONVERTTOUPPER {
     input: 
     path y 
 
