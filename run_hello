@@ -1,0 +1,1 @@
+nextflow run iaradsouza1/TABIII-hello -with-tower
